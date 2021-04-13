@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		9D71FE5F26246FDF0030FD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D71FE5E26246FDF0030FD68 /* AppDelegate.swift */; };
 		9D71FE6126246FDF0030FD68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D71FE6026246FDF0030FD68 /* SceneDelegate.swift */; };
-		9D71FE6326246FDF0030FD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D71FE6226246FDF0030FD68 /* ViewController.swift */; };
+		9D71FE6326246FDF0030FD68 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D71FE6226246FDF0030FD68 /* ReminderListViewController.swift */; };
 		9D71FE6626246FDF0030FD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D71FE6426246FDF0030FD68 /* Main.storyboard */; };
 		9D71FE6826246FE00030FD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D71FE6726246FE00030FD68 /* Assets.xcassets */; };
 		9D71FE6B26246FE00030FD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D71FE6926246FE00030FD68 /* LaunchScreen.storyboard */; };
+		9D71FE74262474B60030FD68 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D71FE73262474B60030FD68 /* Reminder.swift */; };
+		9D71FE772625CDFC0030FD68 /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D71FE762625CDFC0030FD68 /* ReminderListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D71FE5B26246FDF0030FD68 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D71FE5E26246FDF0030FD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D71FE6026246FDF0030FD68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9D71FE6226246FDF0030FD68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D71FE6226246FDF0030FD68 /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		9D71FE6526246FDF0030FD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D71FE6726246FE00030FD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D71FE6A26246FE00030FD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D71FE6C26246FE00030FD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D71FE73262474B60030FD68 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		9D71FE762625CDFC0030FD68 /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				9D71FE5E26246FDF0030FD68 /* AppDelegate.swift */,
 				9D71FE6026246FDF0030FD68 /* SceneDelegate.swift */,
-				9D71FE6226246FDF0030FD68 /* ViewController.swift */,
+				9D71FE6226246FDF0030FD68 /* ReminderListViewController.swift */,
 				9D71FE6426246FDF0030FD68 /* Main.storyboard */,
 				9D71FE6726246FE00030FD68 /* Assets.xcassets */,
 				9D71FE6926246FE00030FD68 /* LaunchScreen.storyboard */,
 				9D71FE6C26246FE00030FD68 /* Info.plist */,
+				9D71FE73262474B60030FD68 /* Reminder.swift */,
+				9D71FE762625CDFC0030FD68 /* ReminderListCell.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D71FE6326246FDF0030FD68 /* ViewController.swift in Sources */,
+				9D71FE6326246FDF0030FD68 /* ReminderListViewController.swift in Sources */,
+				9D71FE772625CDFC0030FD68 /* ReminderListCell.swift in Sources */,
 				9D71FE5F26246FDF0030FD68 /* AppDelegate.swift in Sources */,
 				9D71FE6126246FDF0030FD68 /* SceneDelegate.swift in Sources */,
+				9D71FE74262474B60030FD68 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
